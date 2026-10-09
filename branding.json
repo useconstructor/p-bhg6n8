@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#FFFFFF",
+  "secondaryColor": "#F0F0F0",
+  "backgroundColor": "#FFFFFF",
+  "textColor": "#333333",
+  "accentColor": "#333333",
+  "fontHeading": "System UI (-apple-system,",
+  "fontBody": "Arial",
+  "borderRadius": "0.25rem",
+  "logoText": "Marcador de Puntos",
+  "logoImageUrl": "https://vabacntbfcwhgkjqajcw.supabase.co/storage/v1/object/public/screenshots/projects/P-BHG6N8/logo.png",
+  "tone": "minimal"
+}

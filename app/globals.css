@@ -1,25 +1,39 @@
 @import "tailwindcss";
 
+:root {
+  --color-bg: #ffffff;
+  --color-bg-secondary: #f0f0f0;
+  --color-text: #333333;
+  --color-text-muted: #777777;
+  --color-border: #cccccc;
+  --color-border-focus: #999999;
+  --color-button-bg: #f0f0f0;
+  --color-button-hover: #e0e0e0;
+  --color-button-active: #d0d0d0;
+  --color-primary: #333333;
+  --font-system: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
 @theme {
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
-  --color-background: oklch(1 0 0);
-  --color-foreground: oklch(0.145 0 0);
-  --color-card: oklch(1 0 0);
-  --color-card-foreground: oklch(0.145 0 0);
-  --color-primary: oklch(0.205 0 0);
-  --color-primary-foreground: oklch(0.985 0 0);
-  --color-secondary: oklch(0.97 0 0);
-  --color-secondary-foreground: oklch(0.205 0 0);
-  --color-muted: oklch(0.97 0 0);
-  --color-muted-foreground: oklch(0.556 0 0);
-  --color-accent: oklch(0.97 0 0);
-  --color-accent-foreground: oklch(0.205 0 0);
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, monospace;
+  --color-background: #ffffff;
+  --color-foreground: #333333;
+  --color-card: #ffffff;
+  --color-card-foreground: #333333;
+  --color-primary: #333333;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #f0f0f0;
+  --color-secondary-foreground: #333333;
+  --color-muted: #f0f0f0;
+  --color-muted-foreground: #777777;
+  --color-accent: #f0f0f0;
+  --color-accent-foreground: #333333;
   --color-destructive: oklch(0.577 0.245 27.325);
-  --color-border: oklch(0.922 0 0);
-  --color-input: oklch(0.922 0 0);
-  --color-ring: oklch(0.708 0 0);
-  --radius: 0.5rem;
+  --color-border: #cccccc;
+  --color-input: #cccccc;
+  --color-ring: #999999;
+  --radius: 0.25rem;
 }
 
 @layer base {
@@ -27,7 +41,9 @@
     border-color: var(--color-border);
   }
   body {
-    background-color: var(--color-background);
-    color: var(--color-foreground);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-system);
+    line-height: 1.4;
   }
 }

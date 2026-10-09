@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "App",
-  description: "Built by Constructor",
+  title: "Marcador de Puntos",
+  description: "Herramienta para llevar el puntaje de dos jugadores",
 };
 
 export default function RootLayout({
